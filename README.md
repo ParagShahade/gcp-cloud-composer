@@ -34,7 +34,7 @@ This project provides Terraform configurations for provisioning and managing **G
 ```bash
 git clone https://github.com/ParagShahade/gcp-cloud-composer.git
 cd gcp-cloud-composer
-
+```
 <!-- BEGIN_TF_DOCS -->
 
 ## Modules
