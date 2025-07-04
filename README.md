@@ -1,12 +1,42 @@
 # gcp-cloud-composer
+# GCP Cloud Composer with Terraform
+
+This project provides Terraform configurations for provisioning and managing **Google Cloud Composer** environments (Airflow 2.x), following infrastructure-as-code best practices.
+
+---
+
+## 🚀 Features
+
+- Create Cloud Composer 2/3 environments using Terraform
+- Modular setup for DAGs, dependencies, variables, and secrets
+- Supports CI/CD integration via Cloud Build
+- Follows GCP Composer security guidelines
+
+---
+
+## 📦 Requirements
+
+- [Terraform](https://developer.hashicorp.com/terraform/install) ≥ 1.3
+- Google Cloud SDK (`gcloud`)
+- A GCP project with the following enabled:
+  - Composer API
+  - IAM, Storage, Compute, Cloud Build
+- Service account with roles:
+  - `roles/composer.admin`
+  - `roles/storage.admin`
+  - `roles/iam.serviceAccountUser`
+
+---
+
+## 🌱 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ParagShahade/gcp-cloud-composer.git
+cd gcp-cloud-composer
+
 <!-- BEGIN_TF_DOCS -->
-## Requirements
-
-No requirements.
-
-## Providers
-
-No providers.
 
 ## Modules
 
