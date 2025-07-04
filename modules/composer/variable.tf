@@ -1,0 +1,13 @@
+variable "project_id" {}
+variable "region" {}
+variable "network_name" {}
+variable "primary_subnet_name" {}
+variable "primary_subnet_cidr" {}
+variable "gke_pods_ip_range" {}
+variable "gke_services_ip_range" {}
+variable "secondary_subnet_name" {}
+variable "secondary_subnet_cidr" {}
+variable "composer_sa_name" {}
+variable "composer_name" {}
+variable "environment_size" {}
+variable "image_version" {}
