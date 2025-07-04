@@ -1,4 +1,3 @@
-# gcp-cloud-composer
 # GCP Cloud Composer with Terraform
 
 This project provides Terraform configurations for provisioning and managing **Google Cloud Composer** environments (Airflow 2.x), following infrastructure-as-code best practices.
